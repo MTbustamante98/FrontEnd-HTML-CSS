@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta name="description" content="Formulário de contato" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="img/contact-form-icon.svg" alt="Imagem logotipo" />
+    </header>
+    <main>
+      <section class="titulo">
+        <h1>
+          Interested in our <br />
+          business pricing?
+        </h1>
+        <h2>
+          Fill out the form to view details and we’ll <br />
+          contact you as soon as possible.
+        </h2>
+      </section>
+      <div class="formulario-bg">
+        <form class="formulario" action="formulario.php" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="iname"
+              id="name"
+              placeholder="Ethan Johnson"
+            />
+          </div>
+          <div>
+            <label for="company">Company Email</label>
+            <input
+              type="email"
+              name="icompany"
+              id="icompany"
+              placeholder="ethan@johnson.com"
+            />
+          </div>
+
+          <section>
+            <div class="company">
+              <label for="icompany">Company Size</label>
+              <select name="selecao" id="selecao">
+                <option value="opcao1">50-100 employees</option>
+                <option value="opcao2">100-150 employees</option>
+              </select>
+            </div>
+          </section>
+
+          <section>
+            <div class="subject">
+              <label for="isubject">Subject</label>
+              <select name="selecao" id="selecao">
+                <option value="opcao1">Building Landing Pages</option>
+                <option value="opcao1">Building programs</option>
+              </select>
+            </div>
+          </section>
+
+          <div class="caixa-grande">
+            <textarea placeholder="50-100 employees" rows="8"></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Contact Sales" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
