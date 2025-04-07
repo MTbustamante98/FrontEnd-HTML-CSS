@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+:root {
+  --cor-primary-1:  hsl(158, 36%, 37%);
+  --cor-primary-2:  hsl(30, 38%, 92%);
+  --cor-neutral-1:  hsl(212, 21%, 14%);
+  --cor-neutral-2:  hsl(228, 12%, 48%);
+  --cor-neutral-3:  hsl(0, 0%, 100%);
+}
+
+
+.cor-primary-1 {
+  color: var(--cor-primary-1);
+}
+
+.cor-primary-2 {
+  color: var(--cor-primary-2);
+}
+
+.cor-neutral-1 {
+  color: var(--cor-neutral-1);
+}
+
+.cor-neutral-2 {
+  color: var(--cor-neutral-2);
+}
+
+.cor-neutral-3 {
+  color: var(--cor-neutral-3);
+}
+

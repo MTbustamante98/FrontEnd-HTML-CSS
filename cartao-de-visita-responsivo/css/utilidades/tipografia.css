@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.font-p-p {
+  font: 500 0.785rem "Montserrat", sans-serif;
+}
+
+.font-p-p-b {
+  font: 500 0.785rem/1.7 "Montserrat", sans-serif;
+}
+
+.font-p-p-a {
+  font: 700 0.785rem/1.7 "Montserrat", sans-serif;
+}
+
+.font-G {
+  font: 700 2rem/1 "Fraunces", serif;
+}
