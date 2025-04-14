@@ -1,0 +1,81 @@
+@media (max-width: 800px) {
+  body {
+    background-image: url('../images/bg-pattern-top-mobile.svg'), ('../images/bg-pattern-bottom-mobile.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 30vw bottom 100%, left 50vw top 120vh;
+    overflow-x: hidden;
+    padding-bottom: 80px;
+  }
+
+  main {
+    width: auto;
+    height: auto;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    max-width: 15ch;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 0.8;
+  }
+
+  .p1-grid {
+    padding-top: 32px;
+    padding-bottom: 0px;
+    max-width: 33ch;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  ul {
+    padding-bottom: 60px;
+  }
+
+  li {
+    display: block;
+    width: 330px;
+    text-align: center;
+    padding: 18px;
+  }
+
+  ul li:nth-of-type(2) {
+    margin-left: 0;
+  }
+  
+  ul li:nth-of-type(3) {
+    margin-left: 0;
+  } 
+
+  .stars img {
+    margin-bottom: 10px;
+  } 
+
+  .container-informacoes {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .box-informacoes > p {
+    max-width: 18rem;
+  }
+
+  .box-informacoes:nth-of-type(2),
+  .box-informacoes:nth-of-type(3) {
+    margin-top: 10px;
+  }
+
+  #p1-avatar-2 {
+    max-width: 18rem;
+  }
+
+  .attribution {
+    font-size: 0.825rem;
+  }
+}
