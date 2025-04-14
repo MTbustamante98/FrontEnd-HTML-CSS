@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  background: var(--Very-Light-Gray);
+}
+
+main {
+  max-width: 1440px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: auto auto;
+  gap: 30px;
+}
+
+.box-titulo {
+  margin: 0 auto;
+  max-width: 500px;
+  padding-top: 60px;
+}
+
+.box-titulo h1 {
+  color: var(--Grayish-Blue);
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 200;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  max-width: 25ch;
+}
+
+.box-titulo span {
+  font-weight: 600;
+  color: var(--Very-Dark-Blue);
+}
+
+.box-titulo p {
+  font-size: 0.937rem;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+  text-align: center;
+  padding-bottom: 60px;
+  max-width: 60ch;
+}
+
+.container-informacoes {
+  height: 260px;
+  background: #fff;
+  border-radius: 4px 4px 10px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);;
+}
+
+.container-informacoes h2 {
+  font-size: 1.2rem;
+  padding: 20px 20px 0;
+  color: var(--Very-Dark-Blue);
+}
+
+.container-informacoes p {
+  font-size: 0.825rem;
+  padding: 12px 20px;
+  color: var(--Grayish-Blue);
+  line-height: 1.6;
+}
+
+.container-informacoes img {
+  margin-top: 60px;
+  margin-right: 25px;
+}
+
+.container-informacoes:nth-of-type(1) {
+  border-top: 3px solid var(--cyan);
+}
+
+.container-informacoes:nth-of-type(2) {
+  border-top: 3px solid var(--red);
+}
+
+.container-informacoes:nth-of-type(3) {
+  border-top: 3px solid var(--orange);
+}
+
+.container-informacoes:nth-of-type(4) {
+  border-top: 3px solid var(--blue);
+}
+
+.box-icone {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-column {
+  grid-column: -3;
+  grid-row: 2;
+}
+
+.col-row {
+  transform: translate(0%, 55%);
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.attribution { 
+  font-size: 1rem; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
