@@ -1,0 +1,73 @@
+@charset "UTF-8"; 
+
+:root {
+  --cor0:  hsl(0, 0%, 100%);
+  --cor1:  hsl(212, 45%, 89%);
+  --cor2:  hsl(220, 15%, 55%);
+  --cor3:  hsl(218, 44%, 22%);
+}
+
+body {
+  font-family: "Outfit";
+  background-color: var(--cor1);
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  width: 340px;
+  height: 540px;
+  border-radius: 20px;
+  background-color: var(--cor0);
+  box-shadow: 0 0 10px var(--cor2);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.imagem-container {
+  padding: 20px 20px;
+}
+
+h1 {
+  font: 700 1.5rem 'Outfit', sans-serif;
+  color: var(--cor3);
+  text-align: center;
+  margin-top: 0px;
+  padding: 5px;
+}
+
+.paragrafo-2 {
+  font: 400 0.937rem 'Outfit', sans-serif;
+  color: var(--cor2);
+  text-align: center;
+  margin-left: 45px;
+  max-width: 25ch;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem; 
+  text-align: center;
+}
+  
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .attribution {
+    font-size: 0.825rem;
+  }
+}
