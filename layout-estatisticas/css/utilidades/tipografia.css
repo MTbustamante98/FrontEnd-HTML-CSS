@@ -1,0 +1,25 @@
+.font-s {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.font-xs {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.font-xs-b {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.font-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.font-xl {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
