@@ -1,0 +1,190 @@
+@media(max-width: 1366px) {
+  main {
+   padding-top: 5px;
+  }
+
+  .first-container-top::before {
+    left: 400px;
+    top: 25px;
+  }
+}
+
+/* MEDIA 1060px */
+@media (max-width: 1060px) { 
+.box:nth-of-type(1) h1,
+.box:nth-of-type(5) h1 {
+  max-width: 90%;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.box:nth-of-type(2) h1,
+.box:nth-of-type(3) h1, 
+.box:nth-of-type(4) h1 {
+  max-width: 90%;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.first-container-top::before {
+  left: 330px;
+  top: 130px;
+}
+}
+
+/* MEDIA 900px */
+@media (max-width: 900px) {
+main {
+  padding-top: 60px;
+}
+
+.container-avatar {
+  gap: 10px;
+}
+
+.box:nth-of-type(1) h1,
+.box:nth-of-type(5) h1 {
+  max-width: 80%;
+  font-size: 1.2rem;
+}
+
+.box:nth-of-type(2) h1,
+.box:nth-of-type(3) h1, 
+.box:nth-of-type(4) h1 {
+  max-width: 80%;
+  font-size: 1.2rem;
+}
+
+.first-container-top::before {
+  left: 300px;
+  top: 80px;
+}
+}
+
+/* MEDIA 860px */
+@media (max-width: 860px) {
+body {
+  overflow: scroll;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+main {
+  grid-template-columns: 375px;
+  grid-template-areas: 
+    "content-top-1"
+    "box-top-1"
+    "box-bottom-1"
+    "box-bottom-2"
+    "sidenav";
+  padding-top: 60px;
+  padding-bottom: 60px;
+  justify-content: center;
+  position: relative;
+}
+
+.container-avatar {
+  gap: 20px;
+}   
+
+.box:nth-of-type(1) h1,
+.box:nth-of-type(5) h1 {
+  max-width: 27ch;
+}
+
+.box:nth-of-type(3) h1 {
+  max-width: 30ch;
+} 
+
+.box:nth-of-type(4) h1 {
+  max-width: 20ch;
+}
+
+#p-avatar-1 {
+  max-width: 280px;
+}
+
+#p-avatar-2 {
+  max-width: 280px;
+}
+
+#p-avatar-5 {
+  max-width: 280px;
+}
+
+.box:nth-of-type(3) blockquote {
+  max-width: 60ch;
+} 
+
+.box:nth-of-type(4) blockquote {
+  max-width: 45ch;
+} 
+
+.first-container-top::before {
+  left: 430px;
+  top: 65px;
+}
+
+} 
+
+/* MEDIA 600px */
+@media (max-width: 600px) {
+main {
+  grid-template-columns: 375px;
+  grid-template-areas: 
+    "content-top-1"
+    "box-top-1"
+    "box-bottom-1"
+    "box-bottom-2"
+    "sidenav";
+  padding-top: 60px;
+  padding-bottom: 60px;
+  justify-content: center;
+  position: relative;
+}
+
+.container-avatar {
+  gap: 20px;
+}   
+
+.box:nth-of-type(1) h1,
+.box:nth-of-type(5) h1 {
+  max-width: 27ch;
+}
+
+
+.box:nth-of-type(3) h1 {
+  max-width: 30ch;
+} 
+
+.box:nth-of-type(4) h1 {
+  max-width: 20ch;
+}
+
+.box:nth-of-type(3) blockquote {
+  max-width: 60ch;
+} 
+
+.box:nth-of-type(4) blockquote {
+  max-width: 45ch;
+} 
+
+.first-container-top::before {
+  left: 250px;
+  top: 65px;
+}
+
+#p-avatar-1 {
+  max-width: 280px;
+}
+
+#p-avatar-2 {
+  max-width: 280px;
+}
+
+#p-avatar-5 {
+  max-width: 280px;
+}
+} 
