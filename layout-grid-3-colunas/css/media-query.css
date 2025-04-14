@@ -1,0 +1,36 @@
+@media (max-width: 800px) {
+  body {
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  p {
+    max-width: 200px !important;
+    padding: 20px 42px !important;
+  }
+
+  button {
+    margin-top: -5px;
+  }
+
+  .caixa-principal {
+    grid-template-columns: 1fr;
+    max-width: max-content;
+  }
+
+
+  .container-informacao {
+    padding-bottom: none;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .container-informacao:nth-child(1) {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .container-informacao:nth-child(3) {
+    border-radius: 0 0 10px 10px;
+  }
+}
