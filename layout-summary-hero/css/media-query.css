@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media (max-width: 800px) {
+  body {
+    background: url('../images/pattern-background-mobile.svg') no-repeat center top;
+    background-size: contain;
+    background-color: var(--cor-primaria-1);
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .director-container {
+    width: 350px;
+    height: auto;
+    padding-bottom: 24px;
+  }
+
+  .box-information > p {
+    max-width: 25ch;
+    font-size: 1rem;
+  }
+
+  .information-plan {
+    width: 310px;
+    padding: 18px 18px;
+  }
+
+  .information-plan > img {
+    width: 48px;
+    height: 48px;
+  } 
+
+  .information-plan .plan {
+    padding-left: 20px;
+  }
+
+  .btn-1 {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .btn-2 {
+    font-size: 1rem;
+    padding-top: 24px;
+    background-color: transparent;
+  }
+
+  .attribution {
+    font-size: 0.825rem;
+  }
+}
