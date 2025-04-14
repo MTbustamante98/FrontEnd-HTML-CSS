@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            background-color: rgba(190, 188, 188, 0.671);
+        }
+        
+        div {
+            display: block;
+            width: 400px;
+            height: 563px;
+            margin: auto;
+            margin-top: 30px;
+            background-color: #FDFF7F;
+            border-radius: 5px;
+            
+        }
+
+        div > h1 { 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgba(0, 0, 0, 0.603);
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 0px;
+        }
+
+        div #p1 {
+            text-align: center;
+            color: rgba(0, 0, 0, 0.603);
+            font-size: 20px;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .p2 {
+            margin-left: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .p3 {
+            margin-left: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #imail {
+            padding: 5px;
+            width: 260px;
+        }
+        
+        a {
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            box-shadow: 0px 0px 1px black;
+            text-align: center;
+            width: 300px;
+            padding: 20px;
+            background-color: rgba(255, 0, 0, 0.74);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            color: white;
+            text-decoration: none;
+            text-shadow: 1px 1px black;
+        }
+
+        h2{
+            text-align: center;
+            margin: 0px;
+
+        }
+
+        .spam {
+            padding: 5px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Nos dê seu feedback</h1>
+        <p id="p1">Ele é muito importante para <br> melhorarmos a sua experiência</p>
+        <form action="cadastro.php" method="get">
+            
+            <p class="p2"><label for="imail">Email* ✉️</label> <br>
+            <input type="email" name="mail" id="imail" size="30" maxlength="50" placeholder="Digite seu e-mail"></p>
+            <p class="p3">O que você achou do nosso serviço? <br>
+            <input type="checkbox" name="fdbk" id="muitobom">
+            <label for="muitobom">Muito Bom</label> <br>
+            <input type="checkbox" name="fdbk" id="bom">
+            <label for="bom">Bom</label> <br>
+            <input type="checkbox" name="Ind" id="indfer">
+            <label for="indfer">Indiferente</label>
+            </label> <br>
+            <input type="checkbox" name="bad" id="ruim">
+            <label for="ruim">Ruim</label> <br>
+            <input type="checkbox" name="muitobad" id="muitoruim">
+            <label for="muitoruim">Muito Ruim</label> </p>
+        </form>
+        
+        <a href="#">Dar Feedback</a>
+        <hr>
+        <h2><strong>Atenção 💬</strong></h2>
+        <p class="spam"><strong>Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM</strong></p>
+        <hr>
+    </div>
+
+
+</body>
+</html>
