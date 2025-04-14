@@ -1,0 +1,23 @@
+.div-img {
+    padding: 20px;
+  }
+
+  .imagem {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+
+  <img class="imagem" src="/assets/images/illustration-article.svg" alt="ilustração">
+
+
+  .div-img {
+    box-sizing: border-box;
+    height: 30%;
+    background: url("/assets/images/illustration-article.svg") no-repeat center center;
+    padding: 90px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+
+
