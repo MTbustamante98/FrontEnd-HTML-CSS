@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+  --color-pink: hsl(322, 100%, 66%);
+  --color-light-pink: hsl(321, 100%, 78%);
+  --color-light-red: hsl(0, 100%, 63%);
+
+  /* Neutral */
+  --color-very-dark-cyan: hsl(192, 100%, 9%);
+  --color-very-pale-blue: hsl(207, 100%, 98%);
+
+  --font-sans: "Open Sans", "Heveltica", "sans-serif";
+  --font-display: "Poppins", "Arial", "sans-serif";
+}
+
+@utility container {
+  margin: 0 auto;
+  padding: 0 0.5rem;
+
+  @media (width >= 40rem) {
+    padding: 0 1rem;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply rounded-full font-sans font-semibold bg-pink px-12 py-3 text-very-pale-blue cursor-pointer hover:bg-light-pink;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .title {
+    @apply text-4xl font-display font-bold text-very-dark-cyan tracking-tight text-center;
+  }
+
+  .paragraph {
+    @apply text-base font-sans font-semibold text-very-dark-cyan leading-normal text-center;
+  }
+
+  .spanNumber {
+    @apply text-6xl font-sans font-bold text-very-dark-cyan tracking-wide text-center inline-block;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.spanOneBefore::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url("./images/icon-communities.svg") no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -2.75rem;
+}
+
+.spanTwoBefore::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url("./images/icon-messages.svg") no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -2.75rem;
+}
+
+.growTogether::before {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 150px;
+  position: absolute;
+  top: -8rem;
+  left: 0;
+  background: url("./images/bg-section-top-mobile-1.svg") no-repeat;
+  background-size: 100% 100%;
+  background-position: top center;
+  z-index: 1;
+}
+
+.growTogether::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  bottom: -5.375rem;
+  left: 0;
+  background: url("./images/bg-section-bottom-mobile-1.svg") no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom center;
+  z-index: 1;
+}
+
+.flowingConversation::before {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 150px;
+  position: absolute;
+  top: -8rem;
+  left: 0;
+  background: url("./images/bg-section-top-mobile-2.svg") no-repeat;
+  background-size: 100% 100%;
+  background-position: top center;
+  z-index: 1;
+}
+
+.flowingConversation::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  bottom: -5.375rem;
+  left: 0;
+  background: url("./images/bg-section-bottom-mobile-2.svg") no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom center;
+  z-index: 1;
+}
+
+.emailContactBefore::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  background: url("./images/icon-email.svg") no-repeat;
+  z-index: 1;
+  left: 0;
+  margin-top: 2px;
+}
+
+.numberContactBefore::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url("./images/icon-phone.svg") no-repeat;
+  z-index: 1;
+  left: 0;
+  margin-top: 2px;
+}
+
+@media (min-width: 64rem) {
+  .growTogether::before {
+    background: url("./images/bg-section-top-desktop-1.svg") no-repeat;
+    background-size: 100% 100% !important;
+  }
+
+  .growTogether::after {
+    background: url("./images/bg-section-bottom-desktop-1.svg") no-repeat;
+    background-size: 100% 100% !important;
+  }
+
+  .flowingConversation::before {
+    background: url("./images/bg-section-top-desktop-2.svg") no-repeat;
+    background-size: 100% 100% !important;
+  }
+
+  .flowingConversation::after {
+    background: url("./images/bg-section-bottom-desktop-2.svg") no-repeat;
+    background-size: 100% 100% !important;
+  }
+
+  .itemSelf {
+    justify-self: self-start;
+  }
+}
