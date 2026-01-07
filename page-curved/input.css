@@ -63,7 +63,7 @@ img {
   display: block;
   width: 40px;
   height: 40px;
-  background: url("./images/icon-communities.svg") no-repeat;
+  background: url("images/icon-communities.svg") no-repeat;
   background-size: contain;
   position: absolute;
   top: -2.75rem;
@@ -74,7 +74,7 @@ img {
   display: block;
   width: 30px;
   height: 30px;
-  background: url("./images/icon-messages.svg") no-repeat;
+  background: url("images/icon-messages.svg") no-repeat;
   background-size: contain;
   position: absolute;
   top: -2.75rem;
@@ -88,7 +88,7 @@ img {
   position: absolute;
   top: -8rem;
   left: 0;
-  background: url("./images/bg-section-top-mobile-1.svg") no-repeat;
+  background: url("images/bg-section-top-mobile-1.svg") no-repeat;
   background-size: 100% 100%;
   background-position: top center;
   z-index: 1;
@@ -102,7 +102,7 @@ img {
   position: absolute;
   bottom: -5.375rem;
   left: 0;
-  background: url("./images/bg-section-bottom-mobile-1.svg") no-repeat;
+  background: url("images/bg-section-bottom-mobile-1.svg") no-repeat;
   background-size: 100% 100%;
   background-position: bottom center;
   z-index: 1;
@@ -116,7 +116,7 @@ img {
   position: absolute;
   top: -8rem;
   left: 0;
-  background: url("./images/bg-section-top-mobile-2.svg") no-repeat;
+  background: url("images/bg-section-top-mobile-2.svg") no-repeat;
   background-size: 100% 100%;
   background-position: top center;
   z-index: 1;
@@ -130,7 +130,7 @@ img {
   position: absolute;
   bottom: -5.375rem;
   left: 0;
-  background: url("./images/bg-section-bottom-mobile-2.svg") no-repeat;
+  background: url("images/bg-section-bottom-mobile-2.svg") no-repeat;
   background-size: 100% 100%;
   background-position: bottom center;
   z-index: 1;
@@ -142,7 +142,7 @@ img {
   width: 20px;
   height: 16px;
   position: absolute;
-  background: url("./images/icon-email.svg") no-repeat;
+  background: url("images/icon-email.svg") no-repeat;
   z-index: 1;
   left: 0;
   margin-top: 2px;
@@ -154,7 +154,7 @@ img {
   width: 18px;
   height: 18px;
   position: absolute;
-  background: url("./images/icon-phone.svg") no-repeat;
+  background: url("images/icon-phone.svg") no-repeat;
   z-index: 1;
   left: 0;
   margin-top: 2px;
@@ -162,22 +162,22 @@ img {
 
 @media (min-width: 64rem) {
   .growTogether::before {
-    background: url("./images/bg-section-top-desktop-1.svg") no-repeat;
+    background: url("images/bg-section-top-desktop-1.svg") no-repeat;
     background-size: 100% 100% !important;
   }
 
   .growTogether::after {
-    background: url("./images/bg-section-bottom-desktop-1.svg") no-repeat;
+    background: url("images/bg-section-bottom-desktop-1.svg") no-repeat;
     background-size: 100% 100% !important;
   }
 
   .flowingConversation::before {
-    background: url("./images/bg-section-top-desktop-2.svg") no-repeat;
+    background: url("images/bg-section-top-desktop-2.svg") no-repeat;
     background-size: 100% 100% !important;
   }
 
   .flowingConversation::after {
-    background: url("./images/bg-section-bottom-desktop-2.svg") no-repeat;
+    background: url("images/bg-section-bottom-desktop-2.svg") no-repeat;
     background-size: 100% 100% !important;
   }
 

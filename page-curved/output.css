@@ -247,23 +247,11 @@
   .-ml-2 {
     margin-left: calc(var(--spacing) * -2);
   }
-  .-ml-6 {
-    margin-left: calc(var(--spacing) * -6);
-  }
-  .-ml-20 {
-    margin-left: calc(var(--spacing) * -20);
-  }
-  .-ml-200 {
-    margin-left: calc(var(--spacing) * -200);
-  }
   .ml-6 {
     margin-left: calc(var(--spacing) * 6);
   }
   .ml-8 {
     margin-left: calc(var(--spacing) * 8);
-  }
-  .ml-200 {
-    margin-left: calc(var(--spacing) * 200);
   }
   .block {
     display: block;
@@ -292,9 +280,6 @@
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
-  .w-37 {
-    width: calc(var(--spacing) * 37);
-  }
   .w-37\.5 {
     width: calc(var(--spacing) * 37.5);
   }
@@ -316,23 +301,14 @@
   .max-w-\[40ch\] {
     max-width: 40ch;
   }
-  .flex-grow {
-    flex-grow: 1;
-  }
   .grow {
     flex-grow: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -417,9 +393,6 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
-  .py-1 {
-    padding-block: calc(var(--spacing) * 1);
-  }
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
   }
@@ -501,17 +474,11 @@
   .text-balance {
     text-wrap: balance;
   }
-  .text-wrap {
-    text-wrap: wrap;
-  }
   .text-light-red {
     color: var(--color-light-red);
   }
   .text-pink {
     color: var(--color-pink);
-  }
-  .text-very-dark-cyan {
-    color: var(--color-very-dark-cyan);
   }
   .text-very-dark-cyan\/50 {
     color: color-mix(in srgb, hsl(192, 100%, 9%) 50%, transparent);
@@ -524,9 +491,6 @@
   }
   .uppercase {
     text-transform: uppercase;
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .shadow-\[0_0_3px_0_var\(--color-light-pink\)\] {
     --tw-shadow: 0 0 3px 0 var(--tw-shadow-color, var(--color-light-pink));
@@ -576,15 +540,6 @@
       }
     }
   }
-  .\*\:hover\:rounded {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          border-radius: 0.25rem;
-        }
-      }
-    }
-  }
   .\*\:hover\:rounded-md {
     :is(& > *) {
       &:hover {
@@ -594,38 +549,11 @@
       }
     }
   }
-  .\*\:hover\:rounded-xs {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          border-radius: var(--radius-xs);
-        }
-      }
-    }
-  }
   .\*\:hover\:bg-blue-500 {
     :is(& > *) {
       &:hover {
         @media (hover: hover) {
           background-color: var(--color-blue-500);
-        }
-      }
-    }
-  }
-  .\*\:hover\:bg-very-pale-blue {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          background-color: var(--color-very-pale-blue);
-        }
-      }
-    }
-  }
-  .\*\:hover\:text-very-pale-blue {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          color: var(--color-very-pale-blue);
         }
       }
     }
